@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ig img{
+    float: right;
+    width: 40%;
+    border-radius: 10%;
+}
+.ig {
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 60%;
+}
+.text{
+    width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text span{
+    color: rgb(13, 177, 242);
+}
+.new img{
+    float: left;
+    width: 30%;
+    border-radius: 10%;
+}
+.new {
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 10%;
+}
+.text-box{
+    
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.text-box span{
+    color: orangered;
+}
+.new_btn {
+    width: 150px;
+    height: 40px;
+    background: orangered;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #f9f5f5;
+}
+.new_btn:hover{
+    background: rgb(9, 9, 9);
+    color: rgb(255, 254, 252);
+}
+.new_btn a{
+    text-decoration: none;
+    color: #140101;
+    font-weight: bold;
+}
+.new_page h1{
+    top: 180;
+}
+.back button{
+    width: 150px;
+    height: 30px;
+}
+.back button {
+    width: 150px;
+    height: 40px;
+    background: rgb(4, 203, 234);
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #f9f5f5;
+}
+.back button:hover{
+    background: rgb(10, 6, 6);
+    color: rgb(249, 249, 249);
+}
+.back button a{
+    text-decoration: none;
+    color: #140101;
+    font-weight: bold;
+}
+.back button{
+    left: 10%;
+}

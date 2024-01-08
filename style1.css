@@ -1,0 +1,240 @@
+.container{
+    width: 100%;
+    background-image:url("music.jpg") ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+     text-align: left;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    width: 1200px;
+    float: left;
+    height: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: rgb(245, 243, 241);
+    font-size: 35px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    filter: brightness(200%);
+    float: left;
+    padding-top: 1px;
+    text-transform: uppercase;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+   
+}
+.logo::before {
+    content: attr(data-text);
+    position: absolute;
+    color: white;
+    filter:blur(0.2cm);
+    mix-blend-mode: difference;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+ul li{
+    list-style: none;
+    margin: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: #f9f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: darkturquoise;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left:270px;
+}
+.srch{
+    font-family: 'times new Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orange;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 1px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: orange;
+    border: 2px solid rgb(13, 18, 20);
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+
+}
+.btn:focus{
+    outline: none;
+}
+.src:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #f9f5f5;
+    position: relative;
+}
+.content .par{
+    padding-left: 40px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    border-bottom-right-radius: 10px;
+}
+.content {
+    color: rgb(254, 253, 251);
+    font-size: 35px;
+    padding-left: Arial;
+    float: left;
+    padding-top: 20px;
+    text-align: center;
+}
+.content .cn{
+    width: 160px;
+    height: 30px;
+    background: orange;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.content .cn a{
+    text-decoration: none;
+    color: #140101;
+    transition: 3s ease;
+}
+.cn:hover{
+    background-color: white;
+}
+
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    position: absolute;
+    bottom: 60px;
+    left: 78%;
+    border-radius: 10px;
+    padding: 25px;
+    color: #f9f5f5;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orangered;
+    font-size: 22px;
+    background-color: #f9f5f5;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #f9f5f5;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #f9f5f5;
+    font-family: Arial;
+}
+.btnn {
+    width: 240px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #f9f5f5;
+}
+.btnn:hover{
+    background: white;
+    color: orange;
+}
+.btnn a{
+    text-decoration: none;
+    color: #140101;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: orange;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icon a{
+    text-decoration: none;
+    color: white;
+}
+.icon icon-icon{
+    color: #f9f5f5;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 50px;
+
+}
